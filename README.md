@@ -15,6 +15,6 @@
 
 ###2.打开命令提示行进入专题目录 运行
 
-fis3 release prod -d ./NAME
+      fis3 release prod -d ./NAME
 
 ###3.将构建后的目录上传到服务器templets/zhuanti下，并在后台进行相关设置
