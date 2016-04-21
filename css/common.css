@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto !important;
+  max-width: 640px;
+  min-width: 320px;
+  font-family: "Microsoft YaHei";
+}
+dl,
+dt,
+dd,
+p {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  border: 0;
+}
+input, img {
+    vertical-align: middle;
+}
+.clear {
+  clear: both;
+}
+
+/* µ×²¿ */
+.fud ul {padding-left: 0;margin: 0;list-style: none;}
+.fud dl {margin: 0;}
+.foot{
+      text-align:center; 
+      line-height:24px;
+      color:#414141; 
+      margin:0 auto; 
+      width:100%; 
+      font-size:12px;
+}
+.foot a{color:#414141;}
+.foot{
+  text-align: center!important;
+}
