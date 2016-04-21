@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="gbk">
+  <meta http-equiv="X-UA-Comabsolutetible" content="IE=Edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=1, user-scalable=no">
+  <title>{dede:field name='title'/}_{dede:field.seotitle/}</title>
+  <!--栏目专题使用seotitle 活动专题使用title-->
+  <meta name="keywords" content="{dede:field name='keywords'/}" />
+  <meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+  <link rel="stylesheet" href="css/common.css">
+  <!--公共样式-->
+  <link rel="stylesheet" href="css.less">
+  <!--专题样式-->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <!--swiper插件样式如不需要可删除-->
+  
+</head>
+<body>
+  {dede:include filename="zhuanti/Public/header.htm"/}
+
+
+
+
+  {dede:include filename="zhuanti/Public/footer.htm"/}
+  <script src="js/flexible.js"></script>
+  <!--淘宝移动端可伸缩布局方案 - 移动端必须-->
+  <script src="js/jquery.min.js"></script>
+  <!--其他动态效果JS请添加到下方-->
+  <script src="js/swiper.js"></script>
+  
+</body>
+</html>
