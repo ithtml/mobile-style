@@ -16,4 +16,4 @@
 
 fis3 release prod -d ./NAME
 
-3.将构建后的目录上传到服务器templets/专题下，并在后台进行相关设置
+3.将构建后的目录上传到服务器templets/zhuanti下，并在后台进行相关设置
